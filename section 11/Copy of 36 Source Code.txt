@@ -1,0 +1,79 @@
+/*
+var ourFriends = {
+  name1: "Laurence",
+  name2: "Mike",
+  name3: "David"
+};
+*/
+
+var ourFriends = ["Laurence","Mike","David"];
+
+ourFriends (3) ["Laurence", "Mike", "David"] 
+ourFriends[0] "Laurence"
+ourFriends[1] "Mike"
+ourFriends[2] "David"
+ourFriends[3] undefined
+ourFriends[1] = "Tim" "Tim"
+ourFriends[1] "Tim"
+ourFriends (3) ["Laurence", "Tim", "David"] Array(0)
+ourFriends[9] = "Mike" "Mike"
+ourFriends[9] "Mike"
+ourFriends (10) ["Laurence", "Tim", "David", undefined × 6, "Mike"]
+ourFriends.shift() "Laurence"
+ourFriends (10) ["Mike", "David", undefined × 7, "New"]
+ourFriends.unshift("Laurence") 11
+ourFriends (11) ["Laurence", "Mike", "David", undefined × 7, "New"]
+delete ourFriends[2] true
+ourFriends (11) ["Laurence", "Mike", undefined × 8, "New"]
+ourFriends.splice(2,8,"David") (8) [undefined × 8]
+ourFriends (4) ["Laurence", "Mike", "David", "New"]0: "Laurence"1: "Mike"2: "David"3: "New"length: 4__proto__: Array(0)
+ourFriends.splice(2,0) []
+ourFriends (4) ["Laurence", "Mike", "David", "New"]
+ourFriends.splice(2,1) ["David"]
+ourFriends (3) ["Laurence", "Mike", "New"]
+
+ourFriends.sort();
+ourFriends.reverse();
+
+var ourFriends = ["Laurence",1,4,5,0,"Mike","David"];
+ourFriends[10] = "New";
+ourFriends.push("Next item");
+// console.log(ourFriends);
+ourFriends.pop();
+// console.log(ourFriends);
+var f = ourFriends.toString();
+var g = "Laurence,Mike,David,,,,,,,,New";
+var h = g.split(',');
+var i = ourFriends.join("*");
+var nFriends = ourFriends.slice(1,3);
+
+ourFriends (11) ["Laurence", 1, 4, 5, 0, "Mike", "David", undefined × 3, "New"]
+ourFriends.indexOf("Mike") 5
+ourFriends.indexOf("Mikezzz") -1
+Array.isArray(ourFriends) true
+Array.isArray(g) false
+
+//array within array
+var ourFriends = [
+  ["Laurence", "Mike", "David"],
+  [4, 5, 7]
+];
+console.log(ourFriends[0][2]);
+//object within array
+var myArray = [{
+  name1: "Laurence",
+  name2: "Mike",
+  name3: "David"
+}, {
+  name1: "Tina",
+  name2: "Dave",
+  name3: "John"
+}];
+console.log(myArray[0].name3);
+// array within an object
+var myObj = {
+  set1: ["Laurence", "Mike", "David"],
+  set2: [4, 5, 7]
+};
+
+console.log(myObj.set1[2]);

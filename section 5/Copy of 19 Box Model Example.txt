@@ -1,0 +1,15 @@
+#header {
+  border-bottom:solid blue 2px;
+  border:dashed black 2px;
+  outline: yellow solid 5px;
+  background-color: red;
+  /*
+  margin-bottom : 10px;
+  margin-top : 50px;
+  padding-left:10px;
+  padding-top:30px;
+  */
+  margin: 10px 30px 20px 50px;
+  padding: 30px 10px 20px 50px;
+  height: 200px;
+}

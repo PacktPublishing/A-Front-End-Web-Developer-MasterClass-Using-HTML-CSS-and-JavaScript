@@ -1,0 +1,13 @@
+#header {
+  border-bottom:solid blue 2px;
+  border:dashed black 2px;
+  outline: yellow solid 5px;
+  /*
+  border-color:black;
+  border-width:2px;
+  border-style:dashed;
+  border-left-color: red;
+  border-left-style: solid;
+  */
+  height: 200px;
+}

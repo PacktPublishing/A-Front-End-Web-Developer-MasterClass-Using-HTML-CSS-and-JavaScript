@@ -1,0 +1,9 @@
+<h2>Services Offered</h2>
+<dl>
+  <dt>Photography</dt>
+    <dd>Weddings</dd>
+    <dd>Birthdays</dd>
+  <dt>Digital</dt>
+    <dd>Web design we come to you and help create websites</dd>
+    <dd>SEO we market your website</dd>
+</dl>

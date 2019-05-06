@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Floats</title>
+    <style>
+        .container {
+            width: 1080px;
+            background-color: #ddd;
+            margin: 0 auto;
+        }
+        
+        .divy {
+            border: 1px dashed #222;
+            height: 200px;
+        }
+        
+        #block2 {
+            height: 70px;
+            background-color: black;
+            color: aliceblue;
+        }
+        
+        .main {
+            width: 60%;
+            float: right;
+            background-color: white;
+        }
+        
+        .bgcolor {
+            background-color: red;
+        }
+        
+        .sidemenu {
+            float: left;
+            width: 40%;
+        }
+        
+        .clearfix {
+            clear: both;
+        }
+        
+        .navbar {
+            color: red;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            height: 50px;
+            line-height: 45px;
+            font-size: 18px;
+            border: 1px dotted #555;
+            border-bottom: 1px solid red;
+            min-width: 70px;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            display: block;
+        }
+        
+        .navbar a:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        .navbar ul {
+            background-color: black;
+            list-style: none;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="block1" class="divy">HEADER</div>
+        <div id="block2" class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="bgcolor">
+            <div class="sidemenu">
+                <div id="block6" class=""> CONTENT 4 </div>
+            </div>
+            <div class="main">
+                <div id="block3" class="divy">CONTENT 1</div>
+                <div id="block4" class="divy">CONTENT 2</div>
+                <div id="block5" class="divy">CONTENT 3</div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div id="block7" class="divy clearfix">FOOTER</div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Floats</title>
+    <style>
+        .thumbnail {
+            padding: 5px;
+            border: 1px solid #eee;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 10px black;
+        }
+        
+        .right {
+            float: right;
+        }
+        
+        .left {
+            float: left;
+        }
+        
+        .myImg {
+            max-width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. A primo, ut opinor, animantium ortu petitur origo summi boni. <span class="thumbnail right"> <img class="myImg" src="http://via.placeholder.com/350x150"></span>Contineo me ab exemplis. An hoc usque quaque, aliter in vita? Quid turpius quam sapientis vitam ex insipientium sermone pendere? Hi curatione adhibita levantur in dies, valet alter plus cotidie, alter videt. Quod ea non occurrentia fingunt, vincunt Aristonem; </p>
+    <p>Nos commodius agimus. Ita multo sanguine profuso in laetitia et in victoria est mortuus. Et quidem, Cato, hanc totam copiam iam Lucullo nostro notam esse oportebit; <span class="thumbnail left"> <img class="myImg" src="http://via.placeholder.com/350x60"></span>Ratio quidem vestra sic cogit. Sed haec quidem liberius ab eo dicuntur et saepius. Mihi, inquam, qui te id ipsum rogavi? Tum Quintus: Est plane, Piso, ut dicis, inquit. Si longus, levis; Tum ille timide vel potius verecunde: Facio, inquit. Quid enim possumus hoc agere divinius? Sin autem est in ea, quod quidam volunt, nihil impedit hanc nostram comprehensionem summi boni. Primum divisit ineleganter; </p>
+    <p> <span class="thumbnail left"> <img class="myImg" src="http://via.placeholder.com/350x60"></span>Duo Reges: constructio interrete. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Illa videamus, quae a te de amicitia dicta sunt. Voluptatem cum summum bonum diceret, primum in eo ipso parum vidit, deinde hoc quoque alienum; Prodest, inquit, mihi eo esse animo. Rationis enim perfectio est virtus; Ita relinquet duas, de quibus etiam atque etiam consideret. Is ita vivebat, ut nulla tam exquisita posset inveniri voluptas, qua non abundaret. </p>
+    <p> <span class="thumbnail right"> <img class="myImg" src="http://via.placeholder.com/350x150"></span>Quo modo autem optimum, si bonum praeterea nullum est? Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. An me, inquam, nisi te audire vellem, censes haec dicturum fuisse? At certe gravius. Et quidem, inquit, vehementer errat; Nam, ut paulo ante docui, augendae voluptatis finis est doloris omnis amotio. </p>
+</body>
+
+</html>

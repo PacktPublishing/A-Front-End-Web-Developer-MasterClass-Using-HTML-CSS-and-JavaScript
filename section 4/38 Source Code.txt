@@ -1,0 +1,204 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML Lessons</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to my Website</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="portfolio.html">Portfolio</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="http://www.facebook.com" target="_blank">Social Account</a>
+  </nav>
+  <section>
+    <p id="top">Did you know there is
+    <a href="#coolstuff">cool stuff</a> below. Hope You are enjoying the course</p>
+    <p>Look at some of these tags </p>
+    <h2 id="coolstuff">This content is way down here</h2>
+    <p>Way down at the bottom <a href="#top">go back up</a></p>
+    <img src="cat.jpg" alt="cat picture" height="400px">
+  </section>
+  <footer>
+    <a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a> Hope You are enjoying the course
+  </footer>
+</body>
+</html>
+
+portfolio.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>portfolio examples</title>
+</head>
+
+<body>
+  <header>
+    <h1>This is my work portfolio</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="portfolio.html">Portfolio</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="http://www.facebook.com" target="_blank">Social Account</a>
+  </nav>
+  <section>
+    <p>
+      <a href="http://placehold.it/350x150" target="_blank">
+        <img src="http://placehold.it/350x150" width="200px"></a>
+      <a href="cat.jpg" target="_blank">
+        <img src="cat.jpg" width="200px"></a>
+    </p>
+    <p>
+      <a href="http://placehold.it/550x150" target="_blank">
+        <img src="http://placehold.it/550x150" width="200px"></a>
+      <a href="http://placehold.it/350x250" target="_blank">
+        <img src="http://placehold.it/350x250" width="200px"></a>
+    </p>
+  </section>
+  <footer>
+    My Company © 2017<br>
+    <a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a> Hope You are enjoying the course
+  </footer>
+</body>
+
+</html>
+
+about.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>About the company</title>
+</head>
+
+<body>
+  <header>
+    <h1>About us find out more</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="portfolio.html">Portfolio</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="http://www.facebook.com" target="_blank">Social Account</a>
+  </nav>
+  <section>
+    <h2>Services Offered</h2>
+    <dl>
+      <dt>Photography</dt>
+      <dd>Weddings</dd>
+      <dd>Birthdays</dd>
+      <dt>Digital</dt>
+      <dd>Web design we come to you and help create websites</dd>
+      <dd>SEO we market your website</dd>
+    </dl>
+
+    <table style="border:1px solid black">
+      <tr>
+        <th colspan="7">
+          <h3>Hours of operation</h3></th>
+      </tr>
+      <tr>
+        <th style="width:12%;border:1px solid #ddd">Monday</th>
+        <th style="width:12%;border:1px solid #ddd">Tuesday</th>
+        <th style="width:12%;border:1px solid #ddd">Wednesday</th>
+        <th style="width:12%;border:1px solid #ddd">Thursday</th>
+        <th style="width:12%;border:1px solid #ddd">Friday</th>
+        <th style="width:12%;border:1px solid #ddd">Saturday</th>
+        <th style="width:12%;border:1px solid #ddd">Sunday</th>
+      </tr>
+      <tr>
+        <td style="border:1px solid #222">9:00am - 5:00pm</td>
+        <td style="border:1px solid #222">9:00am - 5:00pm</td>
+        <td style="border:1px solid #222">9:00am - 5:00pm</td>
+        <td style="border:1px solid #222">9:00am - 5:00pm</td>
+        <td style="border:1px solid #222">9:00am - 5:00pm</td>
+        <td style="border:1px solid #222" colspan="2">Closed</td>
+      </tr>
+      <tr>
+        <td colspan="7" style="background-color:#000;color:#fff;">
+          *Closed on holidays
+        </td>
+      </tr>
+
+    </table>
+  </section>
+  <footer>
+    My Company © 2017<br>
+    <a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a> Hope You are enjoying the course
+  </footer>
+</body>
+
+</html>
+
+contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Company</title>
+</head>
+
+<body>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="portfolio.html">Portfolio</a> |
+    <a href="about.html">About</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="http://www.facebook.com" target="_blank">Social Account</a>
+  </nav>
+  <section>
+    <form>
+      <label for="uname">Your Name</label>
+      <input type="text" name="uname" id="uname" placeholder="Your name" required><br>
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" placeholder="Your email"><br>
+      <label for="department">Subject</label>
+      <select id="department" name="department">
+        <option value="Sales">Purchase or Return</option>
+        <option value="Marketing">Marketing</option>
+        <option value="General" checked>Others</option>
+      </select><br>
+      <label for="message">Details</label><br>
+      <textarea name="message" id="message" style="width:400px;height:200px;"></textarea><br>
+      <input type="submit" value="Submit request">
+    </form>
+  </section>
+  <footer>
+    My Company © 2017<br>
+    <a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a> Hope You are enjoying the course
+  </footer>
+</body>
+
+</html>
+
+style.css
+
+table,td,th,form{border:1px solid black;}
+

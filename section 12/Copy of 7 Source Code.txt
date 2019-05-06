@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript DOM Course</title>
+</head>
+
+<body>
+    <div id="output">DOM (Document Object Model)</div>
+    <h1>What is the DOM???</h1>
+    <p>Treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.</p>
+    <ul>
+        <li>Describes how all the HTML elements are related</li>
+        <li>Allows JavaScript to call into the DOM select elements and influcence elements</li>
+        <li>DOM is created when the web page loads</li>
+        <li>Elements within the page can be accessed and changed</li>
+    </ul>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <p>Node : everything within the HTML is a node.</p>
+    <div>Hello World</div>
+    <script>
+        console.dir(document);
+        console.dir(document.children[0].children[1].children[6].childNodes[0].nodeValue);
+        document.children[0].children[1].children[6].childNodes[0].nodeValue = "updated value!";
+
+        var myFamily1 = {
+            "dad": "Laurence",
+            "aunt": "Jane",
+            "uncle": "Bob"
+        }
+        console.log(myFamily1);
+
+        var myFamily2 = {
+            "Laurence": {
+                "Mike": 12,
+                "Lisa": 9,
+                "John": 6
+            },
+            "Jane": {
+                "Sam": 12,
+                "George": 6
+            },
+            "Bob": {
+                "Bob Jr": 11,
+                "John": 2
+            },
+        }
+        console.log(myFamily2);
+    </script>
+</body>
+
+</html>

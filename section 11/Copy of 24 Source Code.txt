@@ -1,0 +1,7 @@
+var a = "hello world";
+// window.alert(a);
+var intake = prompt(a);
+var b = a + " " + intake;
+
+var a = prompt("your name");
+document.write("hello, " + a);

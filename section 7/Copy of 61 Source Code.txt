@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About the company</title>
+  <style>
+  a:link {
+  color: #ddd;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+a:active {
+  color: red;
+}
+
+section p:nth-of-type(2) {
+  background-color: black;
+}
+
+section p b:nth-child(2) {
+  background-color: brown;
+}
+
+section p:last-child {
+  background-color: yellow;
+}
+
+section p:first-child {
+  background-color: pink;
+}
+
+div p {
+  background-color: orange;
+}
+
+div > p {
+  background-color: purple;
+}
+
+div ~ p {
+  background-color: blue;
+}
+
+div + p {
+  background-color: green;
+}
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>About us find out more</h1>
+  </header>
+  <nav>
+    <div><a href="index.html">Home</a></div>
+    <div><a href="portfolio.html">Portfolio</a></div>
+    <div><a href="about.html">About</a></div>
+    <div><a href="contact.html">Contact</a></div>
+    <div><a href="http://www.facebook.com" target="_blank">Social Account</a></div>
+  </nav>
+  <section>
+    <p>Lorem ipsum dolor sit amet, <b>consectetur adipiscing elit</b>. Laboro autem non sine causa; Expressa vero in iis aetatibus, quae iam confirmatae sunt. Ut alios omittam, hunc appello, quem ille unum secutus est. Quarum ambarum rerum cum medicinam pollicetur,
+      luxuriae licentiam pollicetur.<b> Diodorus, eius auditor, adiungit</b> ad honestatem vacuitatem doloris. </p>
+      <p>Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Sed
+        utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Quod autem satis est, eo quicquid accessit, nimium est; </p>
+        <p>Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Sed
+          utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Quod autem satis est, eo quicquid accessit, nimium est; </p>
+
+    <div>
+      <p>Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Sed
+        utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Quod autem satis est, eo quicquid accessit, nimium est; </p>
+        <p>Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Sed
+          utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Quod autem satis est, eo quicquid accessit, nimium est; </p>
+
+          <p>Alterum significari idem, ut si diceretur, officia media omnia aut pleraque servantem vivere. Quo plebiscito decreta a senatu est consuli quaestio Cn. Quod maxime efficit Theophrasti de beata vita liber, in quo multum admodum fortunae datur. Sed
+            utrum hortandus es nobis, Luci, inquit, an etiam tua sponte propensus es? Quod autem satis est, eo quicquid accessit, nimium est; </p>
+
+    </div>
+    <div>
+      <p>Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. Qui autem de summo bono dissentit de tota philosophiae ratione dissentit. Duo Reges: constructio interrete. Sed vos squalidius, illorum vides quam niteat
+        oratio. Hoc ipsum elegantius poni meliusque potuit. Eam tum adesse, cum dolor omnis absit; </p>
+    </div>
+    <p>Non autem hoc: igitur ne illud quidem. Et harum quidem rerum facilis est et expedita distinctio. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Idemque diviserunt
+      naturam hominis in animum et corpus. Idemne, quod iucunde? Idemne, quod iucunde? Haec dicuntur inconstantissime. Illum mallem levares, quo optimum atque humanissimum virum, Cn. Re mihi non aeque satisfacit, et quidem locis pluribus.
+    </p>
+
+    <p id="top">Did you know there <span class="blue">bottom</span> is
+      <a href="#coolstuff">cool stuff</a> below. Hope You are <span>enjoying</span> the course</p>
+    <div class="testText">Look at some of these tags </div>
+    <h2 id="coolstuff">This content is way down here</h2>
+    <p>Way down at the <span class="highlight red">bottom</span> <a href="#top">go back up</a></p>
+    <img src="cat.jpg" alt="cat picture" height="400px">
+  </section>
+  <div><p>Div 1 Non autem hoc: igitur ne illud quidem. Et harum quidem rerum facilis est et expedita distinctio. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Idemque
+    diviserunt naturam hominis in animum et corpus. Idemne, quod iucunde? Idemne, quod iucunde? Haec dicuntur inconstantissime. Illum mallem levares, quo optimum atque humanissimum virum, Cn. Re mihi non aeque satisfacit, et quidem locis pluribus.
+</p>
+  </div>
+  <section>Non autem hoc: igitur ne illud quidem. Et harum quidem rerum facilis est et expedita distinctio. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Idemque
+    diviserunt naturam hominis dsffds</section>
+  <div><p>Div 2 Non autem hoc: igitur ne illud quidem. Et harum quidem rerum facilis est et expedita distinctio. Sapientem locupletat ipsa natura, cuius divitias Epicurus parabiles esse docuit. Tum Piso: Quoniam igitur aliquid omnes, quid Lucius noster? Idemque
+    diviserunt naturam hominis in animum et corpus. Idemne, quod iucunde? Idemne, quod iucunde? Haec dicuntur inconstantissime. Illum mallem levares, quo optimum atque humanissimum virum, Cn. Re mihi non aeque satisfacit, et quidem locis pluribus.
+</p>
+  </div>
+  <section>
+    <div >
+      <h2>Services Offered</h2>
+      <dl>
+        <dt>Photography</dt>
+        <dd>Weddings</dd>
+        <dd>Birthdays</dd>
+        <dt>Digital</dt>
+        <dd>Web design we come to you and help create websites</dd>
+        <dd>SEO we market your website</dd>
+      </dl>
+    </div>
+
+    <table>
+      <tr>
+        <th colspan="7">
+          <h3>Hours of operation</h3></th>
+      </tr>
+      <tr>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+      </tr>
+      <tr>
+        <td>9:00am - 5:00pm</td>
+        <td>9:00am - 5:00pm</td>
+        <td>9:00am - 5:00pm</td>
+        <td>9:00am - 5:00pm</td>
+        <td>9:00am - 5:00pm</td>
+        <td colspan="2">Closed</td>
+      </tr>
+      <tr>
+        <td colspan="7" style="background-color:#000;color:#fff;">
+          *Closed on holidays
+        </td>
+      </tr>
+
+    </table>
+  </section>
+  <footer>
+    My Company © 2017<br>
+    <a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a> Hope You are enjoying the course
+  </footer>
+</body>
+
+</html>

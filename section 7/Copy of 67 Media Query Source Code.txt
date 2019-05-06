@@ -1,0 +1,56 @@
+  <style>
+    body {
+      background-color: blue;
+    }
+
+    div {
+      border: 1px black solid;
+    }
+
+    @media all and (min-width:1024px) and (max-width:1280px) {
+      body {
+        background-color: red;
+      }
+      div {
+        width: 200px;
+        float: left;
+        border: 3px black solid;
+      }
+    }
+
+    @media all and (min-width:768px) and (max-width:1024px) {
+      body {
+        background-color: orange;
+      }
+      div {
+        width: 50%;
+        float: left;
+      }
+    }
+
+    @media all and (min-width:480px) and (max-width:768px) {
+      body {
+        background-color: yellow;
+      }
+      div {
+        width: 100%;
+      }
+    }
+
+    @media all and (max-width:480px) {
+      body {
+        background-color: green;
+      }
+      div {
+        width: 100%;
+      }
+    }
+
+    @media screen and (orientation:portrait) {
+      /* Portrait styles here */
+    }
+
+    @media screen and (orientation:landscape) {
+      /* Landscape styles here */
+    }
+  </style>

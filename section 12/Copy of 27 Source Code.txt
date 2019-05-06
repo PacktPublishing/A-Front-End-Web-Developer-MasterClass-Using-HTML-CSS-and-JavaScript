@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript DOM Course</title>
+    <style>
+        li.yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="output">DOM (Document Object Model)</div>
+    <h1>What is the DOM???</h1>
+    <p class="yellow">CLICK Treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.</p>
+    <ul>
+        <li class="yellow">Describes how all the HTML elements are related</li>
+        <li>Allows JavaScript to call into the DOM select elements and influcence elements</li>
+        <li>DOM is created when the web page loads</li>
+        <li class="yellow">Elements within the page can be accessed and changed</li>
+    </ul>
+    <p>
+        <input type="text" id="newTxt"> </p>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <p>Node : everything within the HTML is a node.</p>
+    <div class="yellow">
+        <p>One</p>
+        <p>Two</p>
+        <div>Three</div>
+        <div>Four</div>
+    </div>
+    <script>
+        var output = document.getElementById('output');
+        var newTxt = document.getElementById('newTxt');
+        var yellow = document.querySelector('.yellow');
+        yellow.addEventListener("click", myFun);
+        output.onclick = myFun;
+        newTxt.onchange = function () {
+            console.log(newTxt.value);
+        }
+
+        function myFun() {
+            console.log("hello");
+        }
+    </script>
+</body>
+
+</html>

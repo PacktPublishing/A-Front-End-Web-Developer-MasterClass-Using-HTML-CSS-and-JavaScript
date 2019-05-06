@@ -1,0 +1,12 @@
+Placeholder Text
+http://loripsum.net/
+
+Google Fonts
+https://fonts.google.com/?selection.family=Bellefair
+
+Named Color Values
+https://developer.mozilla.org/en/docs/Web/CSS/color_value
+
+Web Editors
+http://brackets.io/
+https://atom.io/

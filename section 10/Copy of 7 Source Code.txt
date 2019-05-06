@@ -1,0 +1,9 @@
+console.log('hello 3'); // demo for output of JavaScript
+/*
+console.log('hello 3');
+console.log('hello 3');
+console.log('hello 3');
+console.log('hello 3');
+console.log('hello 3');
+*/
+console.log(5+5);

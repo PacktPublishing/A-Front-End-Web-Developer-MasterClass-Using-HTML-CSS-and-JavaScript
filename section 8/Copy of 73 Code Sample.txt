@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Lesson</title>
+    <style>
+        .container {
+            margin: auto;
+            width: 1200px;
+            height: 800px;
+            /*background-image: url('happy.png'), url('background.jpg');*/
+            background-color: black;
+        }
+        
+        .box {
+            height: 500px;
+            width: 500px;
+            border: 1px solid red;
+            background: linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+            background: -webkit-linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+            background: -o-linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+            background: -moz-linear-gradient(to top right, rgba(255, 0, 0, 0.5), purple, orange, yellow, blue);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

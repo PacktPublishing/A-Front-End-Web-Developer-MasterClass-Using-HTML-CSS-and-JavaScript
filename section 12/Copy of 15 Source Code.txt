@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript DOM Course</title>
+    <style>
+        .yellow {
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="output">DOM (Document Object Model)</div>
+    <h1>What is the DOM???</h1>
+    <p class="yellow">Treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.</p>
+    <ul>
+        <li class="yellow">Describes how all the HTML elements are related</li>
+        <li>Allows JavaScript to call into the DOM select elements and influcence elements</li>
+        <li>DOM is created when the web page loads</li>
+        <li>Elements within the page can be accessed and changed</li>
+    </ul>
+    <p>
+        <input type="text" id="newTxt" onchange="upText()"> </p>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <p>Node : everything within the HTML is a node.</p>
+    <div class="yellow">Hello World</div>
+    <script>
+        var output = document.getElementById('output');
+        var listItems = document.getElementsByTagName('li');
+        var myImg = document.getElementsByTagName('img');
+        var yellow = document.getElementsByClassName('yellow');
+        console.log(yellow);
+        for (var x = 0; x < yellow.length; x++) {
+            yellow[x].innerHTML = "This item is YELLOW " + (x + 1);
+        }
+        for (var x = 0; x < listItems.length; x++) {
+            listItems[x].innerHTML = "Item " + (x + 1);
+        }
+        listItems[2].innerText = "UPDATED";
+
+        function upText() {
+            output.innerText = document.getElementById('newTxt').value;
+        }
+    </script>
+</body>
+
+</html>

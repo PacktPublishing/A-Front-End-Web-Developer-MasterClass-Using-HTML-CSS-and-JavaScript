@@ -1,0 +1,45 @@
+
+Recreate the above using CSS
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Website</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"><span class="one">1</span> <span class="two">2</span> <span class="two">3</span> <span class="one">4</span></div>
+    </div>
+</body>
+
+</html>
+
+CSS Solution
+
+    <style>
+       .one,
+        .two {
+            width: 500px;
+            height: 200px;
+            display: inline-block;
+        }
+        
+        .one {
+            background-color: blue;
+        }
+        
+        .two {
+            background-color: red;
+        }
+        
+        .box {
+            margin:auto;
+            width: 1004px;
+        }
+
+    </style>
+

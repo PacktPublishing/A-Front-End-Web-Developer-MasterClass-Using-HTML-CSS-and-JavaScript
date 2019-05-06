@@ -1,0 +1,54 @@
+myFun("new","one")  "new one"
+var a = myFun("new","one")
+a "new one"
+
+function myFun(a,b){
+  //to be exectued
+  console.log(a + " " + b);
+  return a + " " + b;
+}
+myFun("hello","world");
+
+function mValues(a,b){
+  return a * b;
+}
+
+console.log(mValues(5,6));
+
+(function() {
+  var b = 5;
+  var test = "Hello World Init";
+  console.log(test);
+  if (b > 7) {
+    return false;
+  } //  break out of function
+  console.log(test);
+})();
+var b = "Global B";
+myFuna(b);
+function myFuna(a) {
+  var c = "Hello world";
+  console.log(c);
+  a += " world";
+  b = a;
+  console.log(a);
+}
+console.log(b);
+function myFun(a, b) {
+  //to be exectued
+  console.log(a + " " + b);
+  return a + " " + b;
+}
+var hw = myFun("hello", "world");
+function mValues(a, b) {
+  return a * b;
+}
+//console.log(mValues(5,6));
+var ourFriends = ["Laurence", "Mike", "David"];
+var q = ["Laurence", "Mike", "David"];
+function toArray(array, addNew) {
+  array.push(addNew);
+  console.log(array);
+  return "added new item :)";
+}
+//toArray(ourFriends,"New Item") ;

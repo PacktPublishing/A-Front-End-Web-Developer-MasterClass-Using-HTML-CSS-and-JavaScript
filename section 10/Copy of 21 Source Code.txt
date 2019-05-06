@@ -1,0 +1,94 @@
+var a = "a";
+var b = "b";
+var c = 50;
+var a = "a" , b = "b" , c = 50;
+console.log(a,b,c);
+a++;
+console.log(a);
+a--;
+
+Outputs
+var a = 10;
+var b = 5;
+var c = 50;
+a
+10
+a + "world" "10world"
+typeof a "number"
+typeof a + "world" "numberworld"
+typeof (a + "world" ) "string"
+
+a + b  15
+a - b  5
+a * b  50
+c / b  10
+12 % 2  0
+13 % 2  1
+14 % 2 0
+12 % 3  0
+13 % 3  1
+14 % 3  2
+15 % 3  0
+
+a == b  false
+(a--) == (b*2)  false
+(a) == (b*2)  true
+a  10
+a != b  true
+a == b  false
+a == "10"  true
+a === "10"  false
+a !== "10"  true
+a > b  true
+a < b  false
+a < a  false
+a > a  false
+a >= a  true
+a <= a  true
+
+JavaScript Assignment Operators
+var a = "a";
+a++  10
+a  11
+a = a + 5  16
+a += 5  21
+a -= 5  16
+a *= 5  80
+a /= 5  16
+a %= 5  1
+
+JavaScript Arithmetic Operators
++ Addition
+- Subtraction
+* Multiplication
+/ Division
+% Modulus (Remainder)
+++ Increment
+-- Decrement
+
+JavaScript Comparison Operators
+== Is equal to
+=== Identical same type as well
+!= Not equal to
+!== Not Identical
+> Greater than
+>= Greater than or equal to
+< Less than
+<= Less than or equal to
+
+JavaScript String Operators
+var a = "string";
+var b = "hello";
+var c = 50;
+a "string"
+a + b "stringhello"
+a = a + b "stringhello"
+a "stringhello"
+a += " world" "stringhello world"
+a "stringhello world"
+a = a - b NaN
+
+JavaScript Logical Operators
+&& AND
+|| OR
+! Not

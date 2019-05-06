@@ -1,0 +1,11 @@
+Named Color Values
+https://developer.mozilla.org/en/docs/Web/CSS/color_value
+
+Dev Tools
+https://developer.chrome.com/devtools
+
+Google Fonts
+https://fonts.google.com/
+
+Fonts 
+https://developer.mozilla.org/en-US/docs/Web/CSS/font-family

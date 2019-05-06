@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Lesson</title>
+    <style>
+        /* Safari 4.0 - 8.0 */
+        
+        @-webkit-keyframes myAnimation {
+            0% {
+                top: 0px;
+                width: 100%;
+                background-color: aqua;
+            }
+            50% {
+                background-color: yellow;
+                width: 200%;
+            }
+            100% {
+                top: 500px;
+                width: 50%;
+                background-color: red;
+            }
+        }
+        
+        @keyframes myAnimation {
+            0% {
+                top: 0px;
+                width: 100%;
+                background-color: aqua;
+            }
+            50% {
+                background-color: yellow;
+                width: 200%;
+            }
+            100% {
+                top: 500px;
+                width: 50%;
+                background-color: red;
+            }
+        }
+        
+        .container {
+            margin: auto;
+            width: 1200px;
+            height: 800px;
+            /*background-image: url('happy.png'), url('background.jpg');*/
+            background-color: white;
+        }
+        
+        .box {
+            height: 500px;
+            width: 500px;
+            border: 1px solid red;
+            background-color: blue;
+            border-radius: 100px;
+            box-shadow: 10px 10px 10px black;
+            position: relative;
+            /*
+            animation-name: myAnimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            */
+            animation: myAnimation 3s infinite;
+            -webkit-animation: myAnimation 3s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>

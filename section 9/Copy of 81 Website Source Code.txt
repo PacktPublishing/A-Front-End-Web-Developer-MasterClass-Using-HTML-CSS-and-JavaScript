@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CSS Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Bellefair');
+        body {
+            font-family: 'Bellefair', serif;
+            color: #222;
+        }
+        
+        a {
+            text-decoration: none;
+            color: red;
+        }
+        
+        h1 {
+            font-size: 2em;
+        }
+        
+        p::first-letter {
+            font-size: 3em;
+            color: red;
+        }
+        
+        #sidemenu p::first-letter {
+            color: white;
+        }
+        
+        .logo {
+            font-size: 2em;
+        }
+        
+        .container {
+            width: 1080px;
+            margin: auto;
+            background-color: beige;
+            padding: 10px;
+        }
+        
+        nav {
+            background-color: #333;
+            width: 100%;
+        }
+        
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            width: 150px;
+        }
+        
+        nav a {
+            display: block;
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a:hover {
+            background-color: red;
+            color: black;
+        }
+        
+        .header-container header {
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            padding: 10px;
+        }
+        
+        #content {
+            background-color: white;
+            color: black;
+            width: 56%;
+            float: left;
+            min-height: 500px;
+            padding: 5px 2%;
+        }
+        
+        #sidemenu {
+            width: 36%;
+            float: right;
+            padding: 0 2%;
+        }
+        
+        #sidemenu ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #sidemenu li {
+            list-style-type: none;
+            display: block;
+            width: 100%;
+            padding: 7px;
+            background-color: black;
+        }
+        
+        #sidemenu a {
+            text-decoration: none;
+            color: #eee;
+        }
+        
+        #sidemenu li:hover {
+            background-color: #ddd;
+        }
+        
+        .main-container {
+            background-color: red;
+        }
+        
+        .footer-container {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .rcorner {
+            border-radius: 15px;
+            background-color: black;
+            padding: 15px;
+        }
+        
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-container">
+            <header>
+                <div class="logo">Company Name</div>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main-container">
+            <div id="content">
+                <header>
+                    <h1>Main Page </h1>Content</header>
+                <p>some content blah <a href="#">mnew wbesite link</a> bnlahg blah</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quod quidem nobis non saepe contingit. Omnia peccata paria dicitis. Si est nihil nisi corpus, summa erunt illa: valitudo, vacuitas doloris, pulchritudo, cetera. Atque his de rebus et splendida est eorum et illustris oratio. Qua tu etiam inprudens utebare non numquam. </p>
+                <p>Eam tum adesse, cum dolor omnis absit; Cave putes quicquam esse verius. Sed emolumenta communia esse dicuntur, recte autem facta et peccata non habentur communia. Ut placet, inquit, etsi enim illud erat aptius, aequum cuique concedere. Innumerabilia dici possunt in hanc sententiam, sed non necesse est. Sed residamus, inquit, si placet. Equidem e Cn. </p>
+                <p>Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis. Duo Reges: constructio interrete. Age, inquies, ista parva sunt. Si longus, levis. Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Satis est ad hoc responsum. Qui est in parvis malis. Summus dolor plures dies manere non potest? </p>
+                <p>Quid de Pythagora? Quod non faceret, si in voluptate summum bonum poneret. Scientiam pollicentur, quam non erat mirum sapientiae cupido patria esse cariorem. Sed potestne rerum maior esse dissensio? Sed haec omittamus; Quo plebiscito decreta a senatu est consuli quaestio Cn. Conclusum est enim contra Cyrenaicos satis acute, nihil ad Epicurum. Innumerabilia dici possunt in hanc sententiam, sed non necesse est. At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta omnia? Bonum patria: miserum exilium. </p>
+                <footer>Share on social media</footer>
+            </div>
+            <aside id="sidemenu">
+                <h3>Newsfeed</h3>
+                <p>Tecum optime, deinde etiam cum mediocri amico. Tu enim ista lenius, hic Stoicorum more nos vexat. Est, ut dicis, inquam. </p>
+                <div class="rcorner">
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                        <li><a href="#">Link 4</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer-container clearfix">
+            <footer>
+                <div>(c) copyright 2017 discoveryvip</div>
+                <div>more info to get a hold or us!</div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

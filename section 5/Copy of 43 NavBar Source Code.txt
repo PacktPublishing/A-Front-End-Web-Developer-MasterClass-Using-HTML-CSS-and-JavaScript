@@ -1,0 +1,44 @@
+<style>
+  .navbar {
+  color: red;
+}
+
+.navbar li {
+  display: inline-block;
+  height: 50px;
+  line-height: 45px;
+  font-size: 18px;
+  border: 1px dotted #555;
+  border-bottom: 1px solid red;
+  min-width: 70px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: red;
+  color: white;
+}
+
+.navbar ul {
+  background-color: black;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+</style>
+<div class="navbar">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</div>

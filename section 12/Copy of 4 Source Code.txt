@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript DOM Course</title>
+</head>
+
+<body>
+    <div id="output">DOM (Document Object Model)</div>
+    <h1>What is the DOM???</h1>
+    <p>Treats an HTML, XHTML, or XML document as a tree structure wherein each node is an object representing a part of the document.</p>
+    <ul>
+        <li>Describes how all the HTML elements are related</li>
+        <li>Allows JavaScript to call into the DOM select elements and influcence elements</li>
+        <li>DOM is created when the web page loads</li>
+        <li>Elements within the page can be accessed and changed</li>
+    </ul>
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/DOM-model.svg"></p>
+    <script>
+        console.dir(document);
+        console.log(document.URL);
+    </script>
+</body>
+
+</html>

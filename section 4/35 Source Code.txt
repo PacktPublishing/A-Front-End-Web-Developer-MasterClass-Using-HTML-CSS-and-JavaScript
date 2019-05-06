@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>HTML Lessons</title>
+
+  </head>
+  <body>
+    <header>
+    <h1>Welcome to my Website</h1>
+    </header>
+    <nav>
+      <a href="index.html" >Home</a> |
+      <a href="about.html">About</a> |
+      <a href="temp/contact.html">Contact </a>
+    </nav>
+    <section>
+    <p id="top">Did you know there is
+      <a href="#coolstuff">cool stuff</a> below.
+        Hope You are enjoying the course</p>
+
+        <table>
+          <thead>
+          <tr>
+            <th>Team</th>
+            <th>Dates</th>
+            <th>Totals</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Blue</td>
+            <td rowspan="2">Mar. 10</td>
+            <td>55</td>
+          </tr>
+          <tr>
+            <td>Red</td>
+
+            <td>80</td>
+          </tr>
+           <tr>
+             <td colspan="2">Total:</td>
+             <td >135</td>
+            </tr>
+          </tbody>
+        </table>
+    <p>Look at some of these tags </p>
+    <h2 id="coolstuff">This content is way down here</h2>
+    <p>Way down at the bottom <a href="#top">go back up</a></p>
+      <img src="cat.jpg" alt="cat picture" height="400px">
+  </section>
+  <footer>
+  <a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a>   Hope You are enjoying the course
+  </footer>
+  </body>
+</html>

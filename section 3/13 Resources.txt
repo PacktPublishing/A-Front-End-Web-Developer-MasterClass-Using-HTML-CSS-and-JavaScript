@@ -1,0 +1,25 @@
+Editor used within the course
+
+https://atom.io/
+https://codepen.io/
+
+Browser Chrome
+
+https://www.google.com/chrome/
+Access DevTools 
+Open Developer Tools 
+On Windows Ctrl + Shift + I 
+On Mac Cmd + Opt + I
+
+Placeholder Text
+
+http://www.blindtextgenerator.com/lorem-ipsum
+
+HTML Tag Information
+
+https://dev.w3.org/html5/html-author/
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+HTML character reference
+
+https://dev.w3.org/html5/html-author/charref

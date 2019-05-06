@@ -1,0 +1,46 @@
+Hyperlinks
+
+Target  
+
+_self default opens in same window
+
+_blank - New window or tab
+
+_parent opens in parent frame
+
+<a href="https://www.google.ca" target="_blank">go to google</a>
+
+Link Bookmarks
+
+<a href="#coolstuff">cool stuff</a>
+
+<h2 id="coolstuff">This content is way down here</h2>
+
+Mailto
+
+<a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lessons</title>
+  </head>
+  <body>
+    <h1>Welcome to my Website</h1>
+    <nav>
+      <a href="index.html" >Home</a> |
+      <a href="about.html">About</a> |
+      <a href="temp/contact.html">Contact </a>
+    </nav>
+    <p><a href="mailto:myemailaddress@exampleblahblah.com">Email me now</a>
+      Hope You are enjoying the course</p>
+    <p id="top">Did you know there is
+      <a href="#coolstuff">cool stuff</a> below.  Hope You are enjoying the course</p>
+    <p>Look at some of these tags </p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2 id="coolstuff">This content is way down here</h2>
+    <p>Way down at the bottom <a href="#top">go back up</a></p>
+  </body>
+</html>

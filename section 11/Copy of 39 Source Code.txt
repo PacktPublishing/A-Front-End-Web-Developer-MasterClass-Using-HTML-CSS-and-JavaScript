@@ -1,0 +1,41 @@
+var a = 5;
+var b = a;
+if(a < b){
+  console.log('B is greater than A'); // if statement is true
+}
+else if(a > b) {
+  console.log('A was bigger than B'); // if statement is true
+}
+else if(a == b) {
+  console.log('A was the same as B'); // if statement is true
+}
+else {
+  console.log('Was not correct and false'); // if statement is false
+}
+
+var a = 3;
+var message;
+switch (a) {
+  case 3:
+    message = 'A was a three';
+    break;
+  case 5:
+    message = 'A was a five';
+    break;
+  default:
+    message = 'A was none of the cases';
+}
+console.log(message);
+var a = "world";
+var message;
+switch (a) {
+  case "hello":
+    message = 'A was hello';
+    break;
+  case "world":
+    message = 'A was world';
+    break;
+  default:
+    message = 'A was none of the cases';
+}
+console.log(message);

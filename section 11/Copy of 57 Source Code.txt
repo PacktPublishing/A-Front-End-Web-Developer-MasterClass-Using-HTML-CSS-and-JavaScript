@@ -1,0 +1,37 @@
+a 4.5
+Math.round(a) 5
+Math.floor(a) 4
+Math.ceil(a) 5
+Math.random() 0.6744542219573197
+Math.random() 0.5432937750670424
+Math.random() 0.8776023393374901
+Math.floor(Math.random()*100) 69
+Math.floor(Math.random()*100) 24
+Math.floor(Math.random()*100) 99
+Math.floor(Math.random()*100) 84
+Math.floor(Math.random()*100)+1 18
+Math.floor(Math.random()*101) 85
+
+Date() "Tue Jul 11 2017 15:44:54 GMT-0400 (Eastern Daylight Time)"
+var d = new Date();
+d.getDate() 11
+d.getDay() 2
+d.getFullYear() 2017
+d.getHours() 15
+d.getMinutes() 45
+d.getMinutes() 45
+d.getTime() 1499802342185
+d.getTime() 1499802342185
+d.getTime() 1499802342185
+d.getUTCMonth() 6
+d.getMonth() 6
+d.setMonth(7) 1502480742185
+d Fri Aug 11 2017 15:45:42 GMT-0400 (Eastern Daylight Time)
+d.setMonth(9) 1507751142185
+d Wed Oct 11 2017 15:45:42 GMT-0400 (Eastern Daylight Time)
+d.toDateString() "Wed Oct 11 2017"
+d.toJSON() "2017-10-11T19:45:42.185Z"
+var e = new Date()
+e Tue Jul 11 2017 15:51:07 GMT-0400 (Eastern Daylight Time)
+d.setMonth(6) 1499802342185
+e-d 325258

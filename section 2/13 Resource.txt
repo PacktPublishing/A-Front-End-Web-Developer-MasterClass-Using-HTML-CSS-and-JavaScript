@@ -1,0 +1,83 @@
+List of top level domains
+
+https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains
+
+Server Side script languages
+
+There are a number of server-side scripting languages available, including:
+
+ASP (*.asp)
+ActiveVFP (*.avfp)
+ASP.NET (*.aspx)
+ASP.NET MVC (*.cshtml)
+ColdFusion Markup Language (*.cfm)
+Go (*.go)
+Google Apps Script (*.gs)
+Hack (*.php)
+Haskell (*.hs) (example: Yesod)
+Java (*.jsp) via JavaServer Pages
+JavaScript using Server-side JavaScript (*.ssjs, *.js) (example: Node.js)
+Lasso (*.lasso)
+Lua (*.lp *.op *.lua)
+Parser (*.p)
+Perl via the CGI.pm module (*.cgi, *.ipl, *.pl)
+PHP (*.php, *.php3, *.php4, *.phtml)
+Python (*.py) (examples: Pyramid, Flask, Django)
+R (*.rhtml) - (example: rApache)
+Ruby (*.rb, *.rbw) (example: Ruby on Rails)
+SMX (*.smx)
+Tcl (*.tcl)
+WebDNA (*.dna,*.tpl)
+Progress WebSpeed (*.r,*.w)
+Bigwig (*.wig)
+https://en.wikipedia.org/wiki/Server-side_scripting
+
+HTML Editors
+
+https://atom.io/
+
+http://brackets.io/
+
+https://codepen.io
+
+https://Jsfiddle.net
+
+https://plnkr.co/
+
+http://cssdeck.com
+
+https://jsbin.com
+
+https://en.wikipedia.org/wiki/HTML_editor
+
+Join the communities
+
+https://developer.mozilla.org/en-US/
+
+https://www.w3.org/
+
+http://codebeautify.org/
+
+https://validator.w3.org/
+
+http://lorem-ipsum.perbang.dk/
+
+http://placehold.it/
+
+http://stackoverflow.com
+
+Resources
+
+https://developer.mozilla.org/en-US/
+
+https://www.w3.org/
+
+http://codebeautify.org/
+
+https://validator.w3.org/
+
+http://lorem-ipsum.perbang.dk/
+
+http://placehold.it/
+
+http://stackoverflow.com

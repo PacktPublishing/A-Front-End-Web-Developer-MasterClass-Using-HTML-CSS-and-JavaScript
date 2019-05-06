@@ -1,0 +1,55 @@
+<form>
+  <input type="color"><br>
+  <input type="date"><br>
+  <input type="email"><br>
+  <input type="number" min="10" max="50"><br>
+  <input type="url"><br>
+ <input type="file"><br>
+ <input type="range" min="10" max="50"><br>
+ <input type="datetime-local"><br>
+ <input type="submit">
+</form>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css" >
+    <title>HTML Lessons</title>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <nav>
+      <a href="../index.html" >Home</a> |
+      <a href="../about.html">About</a> |
+      <a href="contact.html">Contact </a>
+    </nav>
+
+    <form action="login.php" method="post">
+      <label for="username">Username :</label><input type="text" id="username"  name="username" value="Laurence">
+      <label for="pw">Password :</label><input id="pw" type="password" name="password"> <br>
+      Gender :<br>
+      Male <input type="radio" name="gender" value="male">
+      Female <input type="radio" name="gender" value="female">
+      Other <input type="radio" name="gender" value="other" checked><br>
+      Do you agree to T&C
+      <input type="checkbox" name="TC" value="yes" checked><br>
+      <input type="submit" value="Login">
+    </form>
+
+    <form method="post">
+      Subject :
+      <select name="subject">
+        <option value="Support">Support</option>
+        <option value="Info">Say hello</option>
+        <option value="Billing">Billing</option>
+        <option value="Sales">Buy Something</option>
+      </select><br>
+      <textarea name="message" rows="5" cols="50">Text that the user adds</textarea><br>
+      <input type="submit" value="submit">
+
+    </form>
+
+  </body>
+</html>

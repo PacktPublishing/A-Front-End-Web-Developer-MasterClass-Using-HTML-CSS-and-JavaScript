@@ -1,0 +1,9 @@
+.hideme{
+  /*display:none;*/
+  position:static;
+  border:1px solid #a50a0a;
+  background-color:rgba(0, 184, 255, 0.76);
+  position: absolute;
+  left: 80px;
+  top: 100px;
+}

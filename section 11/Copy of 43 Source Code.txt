@@ -1,0 +1,48 @@
+var ourFriends = {
+  name1: "Laurence",
+  name2: "Mike",
+  name3: "David",
+  name4: "Last One"
+};
+
+var a = 4;
+var b = 4;
+while (a < 4) {
+  console.log(ourFriends['name' + a]);
+  a++;
+}
+do {
+  console.log(ourFriends['name' + b]);
+  b++;
+}
+while (b < 4);
+
+var ourFriends = {
+  name1: "Laurence",
+  name2: "Mike",
+  name3: "David",
+  name4: "Last One"
+};
+for (a = 4; a < 4; a++) {
+  console.log(ourFriends['name' + a]);
+}
+
+for(a in ourFriends){
+  console.log(a);
+  console.log(ourFriends[a]);
+}
+
+var ourFriends = ["Laurence","Mike","David"];
+for (a = 0; a < ourFriends.length; a++) {
+  //console.log(typeof a);
+  //console.log(ourFriends[a]);
+}
+
+for(var x in ourFriends){
+  //console.log(typeof x);
+  //console.log(ourFriends[x]);
+}
+
+for (x of ourFriends){
+  console.log(x);
+}

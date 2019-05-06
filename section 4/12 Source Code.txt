@@ -1,0 +1,14 @@
+
+<!-- http://placehold.it/350x150 -->
+<p>
+  <a href="http://placehold.it/350x150" target="_blank">
+    <img src="http://placehold.it/350x150" width="200px"></a>
+  <a href="cat.jpg" target="_blank">
+    <img src="cat.jpg" width="200px"></a>
+</p>
+<p>
+  <a href="http://placehold.it/550x150" target="_blank">
+    <img src="http://placehold.it/550x150" width="200px"></a>
+  <a href="http://placehold.it/350x250" target="_blank">
+    <img src="http://placehold.it/350x250" width="200px"></a>
+</p>

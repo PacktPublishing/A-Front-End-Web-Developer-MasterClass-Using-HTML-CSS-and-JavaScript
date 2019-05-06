@@ -1,0 +1,18 @@
+body {
+  /*background-color:red;*/
+  background-image: url('cat.jpg');
+  background-attachment: fixed;
+}
+
+#header {
+  background: black url('cat.jpg') no-repeat fixed center;
+  /*
+  background-color: red;
+  background-image: url('cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  */
+  height: 200px;
+}

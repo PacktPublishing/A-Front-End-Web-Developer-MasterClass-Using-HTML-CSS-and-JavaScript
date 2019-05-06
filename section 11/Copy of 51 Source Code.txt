@@ -1,0 +1,22 @@
+a "Hello World nice to see you again"
+a.length 33
+a.indexOf("see") 20
+a.startsWith("Hello") true
+a.startsWith("lo") false
+var b = "google.com"; 
+b.endsWith(".com") true
+a.search("see") 20
+a.replace("see","Saw") "Hello World nice to Saw you again"
+a "Hello World nice to see you again"
+a = a.replace("see","Saw") "Hello World nice to Saw you again"
+a "Hello World nice to Saw you again"
+a "Hello World nice to see you again"
+a.slice(20) "see you again"
+a.slice(20 , 22) "se"
+a.substr(20,3) "see"
+a.substring(20,23) "see"
+a.toUpperCase() "HELLO WORLD NICE TO SEE YOU AGAIN"
+a.toLowerCase() "hello world nice to see you again"
+
+String methods
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase

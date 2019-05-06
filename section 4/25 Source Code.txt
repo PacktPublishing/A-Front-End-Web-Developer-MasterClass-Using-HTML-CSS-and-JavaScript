@@ -1,0 +1,29 @@
+<table style="border:1px solid black">
+    <tr>
+      <th colspan="7">
+        <h3>Hours of operation</h3></th>
+    </tr>
+    <tr>
+      <th style="width:12%;border:1px solid #ddd">Monday</th>
+      <th style="width:12%;border:1px solid #ddd">Tuesday</th>
+      <th style="width:12%;border:1px solid #ddd">Wednesday</th>
+      <th style="width:12%;border:1px solid #ddd">Thursday</th>
+      <th style="width:12%;border:1px solid #ddd">Friday</th>
+      <th style="width:12%;border:1px solid #ddd">Saturday</th>
+      <th style="width:12%;border:1px solid #ddd">Sunday</th>
+    </tr>
+    <tr>
+      <td style="border:1px solid #222">9:00am - 5:00pm</td>
+      <td style="border:1px solid #222">9:00am - 5:00pm</td>
+      <td style="border:1px solid #222">9:00am - 5:00pm</td>
+      <td style="border:1px solid #222">9:00am - 5:00pm</td>
+      <td style="border:1px solid #222">9:00am - 5:00pm</td>
+      <td style="border:1px solid #222" colspan="2">Closed</td>
+    </tr>
+    <tr>
+      <td colspan="7" style="background-color:#000;color:#fff;">
+        *Closed on holidays
+      </td>
+    </tr>
+
+  </table>

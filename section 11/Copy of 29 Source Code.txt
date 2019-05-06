@@ -1,0 +1,65 @@
+var a = "hello world";
+// window.alert(a);
+var intake = prompt(a);
+var b = a + " " + intake;
+
+var a = prompt("your name");
+document.write("hello, " + a);
+
+Objects
+person
+Object {}__proto__: Object
+person.firstName = "Mike"
+"Mike"
+person
+Object {firstName: "Mike"}
+person.lastName = "David"
+"David"
+person
+Object {firstName: "Mike", lastName: "David"}firstName: "Mike"lastName: "David"__proto__: Object
+person.lastName
+"David"
+typeof person
+"object"
+document.write ("hello")
+undefined
+
+var ourFriends = { name1 : "Laurence" , name2 : "Mike" , name3 : "David"};
+var a = 1;
+console.log(ourFriends['name' + a]);
+a++;
+console.log(ourFriends['name' + a]);
+a++;
+console.log(ourFriends['name' + a]);
+
+var ourFriends = {
+  person1: {
+    name: "Laurence",
+    age: 40 ,
+    cars: {carMake :"Ford", carValue : 25000}
+  },
+  person2:{
+    name: "Mike",
+    age: 20
+  },
+  person3: {
+    name: "David",
+    age: 30
+  }
+};
+var a = 1;
+console.log(ourFriends['person' + a].name);
+a++;
+console.log(ourFriends['person' + a].name);
+a++;
+console.log(ourFriends['person' + a].name);
+
+ourFriends.person1.cars.carMake
+"Ford"
+ourFriends.person1.cars.carMake = "GM"
+"GM"
+ourFriends.person1.cars.carMake 
+"GM"
+ourFriends.person1["age"] = 50
+50
+ourFriends.person1["age"] 

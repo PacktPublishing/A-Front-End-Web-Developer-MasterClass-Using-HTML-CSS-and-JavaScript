@@ -1,0 +1,15 @@
+a[target="_blank"] { 
+    background-color: yellow;
+}
+[title~="home"]{
+    background-color:red;
+}
+[title*="o"]{
+    background-color:#FFEB3B;
+}
+[class*="e"]{
+    background-color:blue;
+}
+[href="#coolstuff"]{
+    background-color:#E91E63;
+}

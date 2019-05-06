@@ -1,0 +1,46 @@
+Formatting HTML Markup
+
+<small>Small Text</small>
+
+<mark>Marked</mark>
+
+<del>deleted </del>
+<sub>subscript</sub>
+
+<sup>superscript</sup>
+
+<blockquote>Welcome to blockquotes</blockquote>
+
+<b>Bolded text</b>   <strong>Strong text</strong>
+
+<i>italic text</i>  <em>Emphasized content</em>
+
+<u>underlined text</u>
+
+<strike>Strike text</strike>  
+
+<big>Big text</big>
+
+<abbr title=“short for”> and </abbr>   
+
+<q>Quoted</q>   
+
+<cite> text within cites </cite>    
+
+<code>This is code.</code>
+
+    <p>Just some <small>random text</small>
+      to <big>play with</big>.
+      <mark>Just</mark> some <br>
+      <del>random text</del> to 4<sub>9</sub><br>
+      4<sup>9</sup>
+      <blockquote>play with.</blockquote>
+      <b>Just some random</b> <i>text to play with.</i><br>
+      <strong>Just some random</strong> <em>text to play with.</em><br>
+      <u>Just some random text to play with.</u><br>
+      <strike>Just some random</strike> text to play with.<br>
+      <abbr title="World Wide Web">WWW</abbr> to play with.
+      <q>Just some random text to play with.</q><br>
+      <cite>Just some random text to play with.</cite><br>
+      <code>Just some random text to play with.</code>
+    </p>

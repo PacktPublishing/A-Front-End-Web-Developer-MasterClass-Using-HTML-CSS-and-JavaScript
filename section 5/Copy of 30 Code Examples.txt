@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie');
+
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
+body {
+  font-family: 'Reenie Beanie', cursive;
+}
+
+.lHeight {
+  line-height: 10px;
+  letter-spacing: 13px;
+  text-shadow: 0 0 13px black;
+  color: black;
+}
+
+.container {
+  font-family: 'Neucha', cursive;
+  max-width: 1080px;
+  width: 90%;
+  margin: auto;
+}
+
+#header {
+  border-bottom: solid blue 2px;
+  border: dashed black 2px;
+  outline: yellow solid 5px;
+  background-color: red;
+  margin: 10px 30px 20px 50px;
+  padding: 30px 10px 20px 50px;
+  height: 200px;
+}
+
+span {
+}
+
+.testText {
+  text-align: center;
+  text-shadow: black 8px 9px 14px;
+}
+
+#top {
+  font: italic bold 30px fantasy;
+}
+
+.red {
+  color: #111111;
+}
+
+.blue {
+  color: blue;
+}
+
+.nav {
+  padding: 10px;
+  color: white;
+  background-color: black;
+}
+
+.highlight {
+  background-color: #663399;
+}

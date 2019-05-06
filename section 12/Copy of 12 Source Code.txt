@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JavaScript DOM Course</title>
+</head>
+
+<body>
+    <div id="output">DOM (Document Object Model)</div>
+    <p>
+        <input type="text" id="newTxt" onchange="upText()"> </p>
+    <script>
+        var output = document.getElementById('output');
+
+        function upText() {
+            output.innerText = document.getElementById('newTxt').value;
+        }
+    </script>
+</body>
+
+</html>
